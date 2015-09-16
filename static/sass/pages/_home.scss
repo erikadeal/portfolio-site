@@ -23,7 +23,7 @@
  	&__text {
  		color: $white;
  		text-align: center;
- 		padding: 8rem 0;
+ 		padding: 10rem 0;
  		background: rgba($accent, .75);
 
  		h1 {
@@ -60,4 +60,8 @@
 
  #projects {
  	background: $bg-dark;
+ }
+
+ .skill-gauge {
+ 	padding-left: 10%;
  }

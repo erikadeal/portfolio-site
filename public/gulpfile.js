@@ -39,7 +39,7 @@ gulp.task('scripts', function() {
 /* Watch task for development */
 gulp.task('watch', function() {
  	gulp.watch('sass/**/*.scss',['styles']);
- 	gulp.watch('js/**/*.js',['scripts']);
+ //	gulp.watch('js/**/*.js',['scripts']);
 });
 
 /* Default build task */

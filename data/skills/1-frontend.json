@@ -1,6 +1,8 @@
 {
 	"name": "Front End Development",
 	"id": "frontend",
+	"proportion": 50,
+	"start": 0,
 	"description": "From coding a website from scratch to creating custom data visualizations, if it involves the web, I'm there.",
 	"list": [
 			"HTML", 

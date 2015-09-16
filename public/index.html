@@ -33,22 +33,7 @@
 		<h2 class="section__title">How I Work</h2>
 
 		
-			<div class="skill">
-	<div class="skill-gauge" id="cms"></div>
-	<h3 class="skill__name">CMS Development</h3>
-	<p class="skill__description">Leveraging some of the most popular frameworks for the web, I can build a website that is easy to manage and maintain.</p>
-	<ul class="skill__list">
-		
-			<li class="skill__list__item">WordPress theme &amp; plugin development</li>
-		
-			<li class="skill__list__item">Drupal theme development</li>
-		
-			<li class="skill__list__item">Bespoke simple templating with Slim PHP Framework</li>
-		
-	</ul>
-</div>
-		
-			<div class="skill">
+			<div class="skill" data-fill="50" data-start="0">
 	<div class="skill-gauge" id="frontend"></div>
 	<h3 class="skill__name">Front End Development</h3>
 	<p class="skill__description">From coding a website from scratch to creating custom data visualizations, if it involves the web, I&#39;m there.</p>
@@ -69,7 +54,22 @@
 	</ul>
 </div>
 		
-			<div class="skill">
+			<div class="skill" data-fill="30" data-start="50">
+	<div class="skill-gauge" id="cms"></div>
+	<h3 class="skill__name">CMS Development</h3>
+	<p class="skill__description">Leveraging some of the most popular frameworks for the web, I can build a website that is easy to manage and maintain.</p>
+	<ul class="skill__list">
+		
+			<li class="skill__list__item">WordPress theme &amp; plugin development</li>
+		
+			<li class="skill__list__item">Drupal theme development</li>
+		
+			<li class="skill__list__item">Bespoke simple templating with Slim PHP Framework</li>
+		
+	</ul>
+</div>
+		
+			<div class="skill" data-fill="20" data-start="80">
 	<div class="skill-gauge" id="ux"></div>
 	<h3 class="skill__name">UX/UI</h3>
 	<p class="skill__description">Employing usability testing tools and best practices, I try to stay in touch with user needs every step of the way.</p>
@@ -179,6 +179,10 @@
 		<p>&copy; 2015 Erika Deal</p>
 	</div>
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
 <script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'

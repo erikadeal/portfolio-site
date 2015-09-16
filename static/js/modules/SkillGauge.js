@@ -6,6 +6,12 @@
 
  var SkillGauge = (function() {
 
+ 	return {
+ 		init: function() {
+ 			console.log('init');
+ 		}
+ 	};
+
  })();
 
  module.exports = SkillGauge;

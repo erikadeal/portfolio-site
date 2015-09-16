@@ -1,6 +1,8 @@
 {
 	"name": "CMS Development",
 	"id": "cms",
+	"proportion": 30,
+	"start": 50,
 	"description": "Leveraging some of the most popular frameworks for the web, I can build a website that is easy to manage and maintain.",
 	"list": [
 		"WordPress theme & plugin development",
