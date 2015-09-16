@@ -1,0 +1,54 @@
+/**
+ * EXPERIENCE
+ *
+ * Styles for the home page experience card
+ */
+
+ .experience {
+ 	margin: 1rem;
+ 	padding: 1rem;
+ 	border: 1px solid #dedede;
+ 	border-radius: 4px;
+ 	background: $white;
+
+ 	&__title {
+ 		margin-bottom: .5rem;
+ 	}
+
+ 	&__dates,
+ 	&__org {
+ 		color: $text-light;
+ 		font-size: 14px;
+ 		display: block;
+ 	}
+
+ 	&__description {
+ 		
+ 	}
+ }
+
+ @media screen and (min-width: 768px) {
+
+	 .experience {
+	 	@include span-columns(6);
+	 	@include triangle-right(#dedede);
+	 	position: relative;
+
+	 	&__title {
+
+	 	}
+
+	 	&__dates {
+
+	 	}
+
+	 	&__org {
+
+	 	}
+
+	 	&__description {
+	 		
+	 	}
+	 }
+
+ }

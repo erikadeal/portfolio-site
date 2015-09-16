@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Erika Deal</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in Php on Erika Deal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Child Well-Being Data Portal</title>
+      <link>http://localhost:1313/projects/data-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/data-portal/</guid>
+      <description>&lt;p&gt;Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;In addition, I developed a custom templating system that retained the original API while allowing the team to produce content in Markdown, thus solving a major content management problem for the organization.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

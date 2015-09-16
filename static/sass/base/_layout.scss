@@ -1,0 +1,23 @@
+/**
+ * LAYOUT
+ *
+ * Base layout styles for the page
+ */ 
+
+body {
+	margin: 0;
+	background: $bg-light;
+}
+
+.main {
+	margin-top: 3rem;
+}
+
+.footer {
+	background: $black;
+	color: #999;
+
+	a {
+		color: #999;
+	}
+}

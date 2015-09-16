@@ -1,0 +1,63 @@
+/**
+ * HOME
+ *
+ * Styles for the home page containers
+ */
+
+ .section {
+ 	@include outer-container(100%);
+ 	padding: 3rem 0;
+
+ 	&__title {
+ 		text-align: center;
+ 		font-weight: normal;
+ 		font-size: 54px;
+ 	}
+ }
+
+.banner {
+ 	position: relative;
+ 	background: url(../img/banner.jpg) no-repeat center center fixed;
+ 	background-size: cover;
+
+ 	&__text {
+ 		color: $white;
+ 		text-align: center;
+ 		padding: 8rem 0;
+ 		background: rgba($accent, .75);
+
+ 		h1 {
+ 			font-size: 39px;
+ 			text-transform: uppercase;
+ 			position: relative;
+ 			margin-bottom: 1rem;
+ 			padding-bottom: .5rem;
+
+ 			&:after {
+ 				content: '';
+ 				position: absolute;
+ 				top: 100%;
+ 				left: calc(50% - 25px);
+ 				height: 2px;
+ 				width: 50px;
+ 				background: $white;
+ 			}
+ 		}
+
+ 		h2 {
+ 			margin: 0;
+ 			text-transform: uppercase;
+ 		}
+
+ 		p {
+ 			max-width: 500px;
+ 			margin: 0 auto;
+ 			float: none;
+ 		}
+ 	}
+
+ }
+
+ #projects {
+ 	background: $bg-dark;
+ }

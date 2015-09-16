@@ -1,0 +1,19 @@
+{{ partial "header.html" }}
+
+<main class="main project-page">
+	<h1>{{ .Title }}</h1>
+	<h3>{{ .Params.daterange }}</h3>
+	<p><a href="{{ .Params.site }}">{{ .Params.site }}</a></p>
+	<div class="content">
+		{{ .Content }}
+	</div>
+	<div class="tags">
+		<ul>
+		{{ range .Params.tags}}
+			<li>{{ . }}</li>
+		{{ end }}
+		</ul>
+	</div>
+</main>
+
+{{ partial "footer.html" }}

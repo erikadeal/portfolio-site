@@ -1,0 +1,45 @@
+/**
+ * HELPERS
+ *
+ * Mixins and placeholders to speed development
+ */
+
+@mixin triangle-structure {
+ 	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: calc(50% - 30px);
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+
+@mixin triangle-right($color) {
+
+ 	&:before {
+	 	@include triangle-structure;
+		left: 100%;
+		border-left: 30px solid $color;
+ 	}
+
+	&:after {
+ 		@include triangle-structure;
+ 		left: calc(100% - 1px);
+ 		border-left: 30px solid #fff;
+ 	}
+}
+
+@mixin triangle-left($color) {
+
+ 	&:before {
+	 	@include triangle-structure;
+		right: 100%;
+		border-right: 30px solid $color;
+ 	}
+
+	&:after {
+ 		@include triangle-structure;
+ 		right: calc(100% - 1px);
+ 		border-right: 30px solid #fff;
+ 	}
+}

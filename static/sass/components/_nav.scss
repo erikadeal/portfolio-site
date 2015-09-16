@@ -1,0 +1,51 @@
+/**
+ * NAV
+ *
+ * Styles for the primary navigation bar
+ */
+
+.main-nav {
+	@include outer-container(100%);
+	background: $black;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 5000;
+
+	.main-nav__list {
+		list-style-type: none;
+		margin: 0;
+	}
+
+	.main-nav__item {
+		display: inline-block;
+
+		a {
+			color: $text-light;
+			text-decoration: none;
+			display: inline-block;
+			padding: 1rem;
+			font-size: 14px;
+		}
+	}
+}
+
+// Tablet and up
+@media screen and (min-width: 768px) {
+
+	.main-nav {
+
+		.main-nav__list {
+
+		}
+
+		.main-nav__item {
+
+			a {
+
+			}
+		}
+	}
+
+}

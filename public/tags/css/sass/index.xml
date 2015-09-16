@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css/Sass on Erika Deal</title>
+    <link>http://localhost:1313/tags/css/sass/</link>
+    <description>Recent content in Css/Sass on Erika Deal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/css/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Child Well-Being Data Portal</title>
+      <link>http://localhost:1313/projects/data-portal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/data-portal/</guid>
+      <description>&lt;p&gt;Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;In addition, I developed a custom templating system that retained the original API while allowing the team to produce content in Markdown, thus solving a major content management problem for the organization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Partners for Our Children website</title>
+      <link>http://localhost:1313/projects/poc-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/poc-site/</guid>
+      <description>&lt;p&gt;I worked with internal stakeholders to develop a modern vision of the organization’s website and brand, then overhauled the information architecture and produced a new Drupal theme in compliance with Drupal 8 coding standards.&lt;/p&gt;
+
+&lt;p&gt;The previous website had long since outgrown its design and was presenting serious maintenance issues to the organization. The redesign enabled us to think about our content and web presence in ways that had previously seemed too ambitious.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Refugee Forum of King County</title>
+      <link>http://localhost:1313/projects/rfkc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/rfkc/</guid>
+      <description>&lt;p&gt;Working with teammates specializing in content strategy and UX, I developed a WordPress theme and plugin to enable members of the organization to communicate about events and resources. Our process included user testing and design exploration.&lt;/p&gt;
+
+&lt;p&gt;This was an exciting project because the organization had been using an email list and in-person meetings to communicate critical information; they realized that they were missing opportunities to help people because they lacked a robust web presence. Since its launch, they have been using the website continuously.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strive Parenting</title>
+      <link>http://localhost:1313/projects/strive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/strive/</guid>
+      <description>&lt;p&gt;The Strive parenting program is a new initiative that needed a public face to garner funder and stakeholder support. Working with a communications expert, designer, and the team that developed the curriculum, I developed a custom WordPress theme and plugin. The site was designed to showcase their work and, on the back end, enable the team to receive and act on feedback as the curriculum was under development.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

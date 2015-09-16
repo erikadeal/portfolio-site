@@ -1,0 +1,17 @@
+/**
+ * TYPOGRAPHY
+ *
+ * Base type styles; may be overridden by component
+ * or page partials.
+ */
+
+ body {
+ 	font-family: 'Georgia', 'Helvetica', sans-serif;
+ 	font-size: 16px;
+ 	line-height: 1.5;
+ 	color: $text;
+ }
+
+ h1, h2, h3, h4, h5 {
+ 	font-family: 'Montserrat', sans-serif;
+ }

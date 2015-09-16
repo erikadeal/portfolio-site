@@ -1,0 +1,50 @@
+/**
+ * SKILL
+ *
+ * Styles for the home page skill panel
+ */
+
+ .skill {
+ 	padding: 1rem;
+
+ 	&__name {
+ 		text-align: center;
+ 		font-size: 20px;
+ 	}
+
+ 	&__description {
+ 		color: $text-light;
+ 		font-size: 20px;
+ 	}
+
+ 	&__list {
+ 		color: $text-light;
+ 	}
+
+ 	&__list__item {
+ 		
+ 	}
+ }
+
+ @media screen and (min-width: 768px) {
+
+	 .skill {
+	 	@include span-columns(4);
+
+	 	&__name {
+
+	 	}
+
+	 	&__description {
+	 		
+	 	}
+
+	 	&__list {
+
+	 	}
+
+	 	&__list__item {
+	 		
+	 	}
+	 }	
+ }

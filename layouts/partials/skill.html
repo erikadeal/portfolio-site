@@ -1,0 +1,10 @@
+<div class="skill">
+	<div class="skill-gauge" id="{{ .id }}"></div>
+	<h3 class="skill__name">{{ .name }}</h3>
+	<p class="skill__description">{{ .description }}</p>
+	<ul class="skill__list">
+		{{ range .list }}
+			<li class="skill__list__item">{{ . }}</li>
+		{{ end }}
+	</ul>
+</div>

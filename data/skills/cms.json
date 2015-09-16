@@ -1,0 +1,10 @@
+{
+	"name": "CMS Development",
+	"id": "cms",
+	"description": "Leveraging some of the most popular frameworks for the web, I can build a website that is easy to manage and maintain.",
+	"list": [
+		"WordPress theme & plugin development",
+		"Drupal theme development",
+	    "Bespoke simple templating with Slim PHP Framework"
+	]
+}
