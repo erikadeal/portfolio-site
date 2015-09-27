@@ -1,7 +1,7 @@
 +++
 
 title = "Strive Parenting"
-daterange = "2014"
+daterange = "October - December 2014"
 org = "Partners for Our Children"
 site = "http://striveparenting.org"
 tags = [
@@ -10,6 +10,7 @@ tags = [
 	"js",
 	"grunt"
 ]
+img = "strive.png"
 weight = 3
 
 +++

@@ -2,48 +2,66 @@
 <html>
 <head>
 	<title></title>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/app.min.css">
 </head>
 <body>
 <header>
 	<nav class="main-nav">
 		<ul class="main-nav__list">
-			<li class="main-nav__item"><a href="/projects">Projects</a></li>
+			<li class="main-nav__item"><a href="#skills">Skills</a></li>
+			<li class="main-nav__item"><a href="#projects">Projects</a></li>
 			<li class="main-nav__item"><a href="/">Home</a></li>
-			<li class="main-nav__item"><a href="/contact">Contact</a></li>
+			<li class="main-nav__item"><a href="#experience">Experience</a></li>
+			<li class="main-nav__item"><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 
 <main class="main project-page">
-	<h1>Refugee Forum of King County</h1>
-	<h3>2014</h3>
-	<p><a href="http://www.kingcountyrefugeeforum.org/">http://www.kingcountyrefugeeforum.org/</a></p>
-	<div class="content">
-		<p>Working with teammates specializing in content strategy and UX, I developed a WordPress theme and plugin to enable members of the organization to communicate about events and resources. Our process included user testing and design exploration.</p>
+	<div class="project-page__content">
+		<h1>Refugee Forum of King County</h1>
+		<h3>2014</h3>
+		
+			<p><a href="http://www.kingcountyrefugeeforum.org/" class="btn-ghost" target="_blank">Visit Website</a></p>
+		
+		<div class="content">
+			<p>Working with teammates specializing in content strategy and UX, I developed a WordPress theme and plugin to enable members of the organization to communicate about events and resources. Our process included user testing and design exploration.</p>
 
 <p>This was an exciting project because the organization had been using an email list and in-person meetings to communicate critical information; they realized that they were missing opportunities to help people because they lacked a robust web presence. Since its launch, they have been using the website continuously.</p>
 
+		</div>
+		<div>
+			<ul class="project__tags">
+			<li class="project__tag"><i class="fa fa-tag"></i></li>
+		    
+		    	<li class="project__tag">
+		    	
+		    	ux
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	design
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	wordpress
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	css/sass
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	js
+		    	</li>
+			</ul>
+		</div>
 	</div>
-	<div class="tags">
-		<ul>
+	<div class="project-page__image">
+		<figure class="current screenshot">
+			<img src="/img/dist/kcrf.png" />
+			
+		<figure>
 		
-			<li>ux</li>
-		
-			<li>design</li>
-		
-			<li>wordpress</li>
-		
-			<li>css/sass</li>
-		
-			<li>js</li>
-		
-		</ul>
 	</div>
 </main>
 
@@ -59,6 +77,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="/js/app.js"></script>
 <script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]

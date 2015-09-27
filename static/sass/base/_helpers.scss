@@ -43,3 +43,103 @@
  		border-right: 30px solid #fff;
  	}
 }
+
+@keyframes pop-in {
+	0% { opacity: 0;transform: scale(0.1); }
+	100% { opacity: 1;transform: scale(1); }
+}
+
+@-webkit-keyframes pop-in {
+	0% { opacity: 0;-webkit-transform: scale(0.1); }
+	100% { opacity: 1;-webkit-transform: scale(1); }
+}
+
+@-moz-keyframes pop-in {
+	0% { opacity: 0;-moz-transform: scale(0.1); }
+	100% { opacity: 1;-moz-transform: scale(1); }
+}
+
+// Slide in animations
+@keyframes slide-in-right {
+	0% { 
+		opacity: 0;
+		margin-left: -100%;
+	}
+	90% {
+		margin-left: 5%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+@-webkit-keyframes slide-in-right {
+	0% { 
+		opacity: 0;
+		margin-left: -100%;
+	}
+	90% {
+		margin-left: 5%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+@-moz-keyframes slide-in-right {
+	0% { 
+		opacity: 0;
+		margin-left: -100%;
+	}
+	90% {
+		margin-left: 5%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+@keyframes slide-in-left {
+	0% { 
+		opacity: 0;
+		margin-left: 100%;
+	}
+	90% {
+		margin-left: 52%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 57%;
+	}
+}
+
+@-webkit-keyframes slide-in-left {
+	0% { 
+		opacity: 0;
+		margin-left: 100%;
+	}
+	90% {
+		margin-left: 52%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 57%;
+	}
+}
+
+@-moz-keyframes slide-in-left {
+	0% { 
+		opacity: 0;
+		margin-left: 100%;
+	}
+	90% {
+		margin-left: 52%;
+	}
+	100% { 
+		opacity: 1;
+		margin-left: 57%;
+	}
+}

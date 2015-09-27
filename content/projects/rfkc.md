@@ -11,6 +11,7 @@ tags = [
 	"css/sass",
 	"js"
 ]
+img = "kcrf.png"
 weight = 4
 
 +++

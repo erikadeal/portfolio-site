@@ -20,7 +20,7 @@
 
 	<!-- Projects -->
 	<section id="projects" class="section">
-		<h2 class="section__title">Selected Projects</h2>
+		<h2 class="section__title">Recent Projects</h2>
 
 		{{ range where .Data.Pages "Section" "projects" }}
 			{{ partial "project.html" . }}
@@ -30,10 +30,11 @@
 	<!-- Experience -->
 	<section id="experience" class="section">
 		<h2 class="section__title">Experience</h2>
-
-		{{ range where .Data.Pages "Section" "experience" }}
-			{{ partial "experience.html" . }}
-		{{ end }}
+		<div class="experiences">
+			{{ range where .Data.Pages "Section" "experience" }}
+				{{ partial "experience.html" . }}
+			{{ end }}
+		</div>
 	</section>
 </main>
 

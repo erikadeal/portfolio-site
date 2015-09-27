@@ -39,6 +39,10 @@ var App = {
 				i++;
 			});
 		}
+
+		self.initTimeline();
+		self.initProjects();
+		self.initNav();
 	},
 
 	appendGauge: function(el, i, start, data, fill){
@@ -59,11 +63,11 @@ var App = {
 
 		// Define the boundaries of the arc
 		var arc = d3.svg.arc()
-						.innerRadius(radius * 0.6)
+						.innerRadius(radius * 0.8)
 						.outerRadius(radius * .9);
 
 		var color = d3.scale.ordinal()
-    		.range(["#ecebeb", "#3F7573", "#ecebeb"]);
+    		.range(["#ecebeb", "#3498db", "#ecebeb"]);
 
     	var delay = 500 * i;
 
@@ -96,7 +100,7 @@ var App = {
 		  .append('text')
 		  .style('font-family', 'Montserrat')
 		  .style('font-size', '70px')
-		  .attr('fill', '#3F7573')
+		  .attr('fill', '#3498db')
 		  .text(fill + '%');
 
   		var waypoint = new Waypoint({
@@ -147,6 +151,62 @@ var App = {
 		  var i = d3.interpolate({startAngle: tweenStart, endAngle: 2*Math.PI}, b);
 		  return function(t) { return arc(i(t)); };
 		}
+	},
+
+	initTimeline: function() {
+
+		var i = 1;
+
+		$('.experience-wrap').each(function() {
+			var el = $(this);
+			var position = i;
+
+	  		var down = new Waypoint({
+			  element: el,
+			  handler: function(down) {
+			     el.addClass('slide-in');
+			  },
+			  offset: 300
+			});
+
+			i++;
+		});
+	},
+
+	initProjects: function() {
+		$('.project-container').each(function() {
+			var el = $(this);
+
+			var waypoint = new Waypoint({
+			  element: el,
+			  handler: function(down) {
+			    el.children('div.project').addClass('fade-in');
+			  },
+			  offset: 500
+			});
+		});
+	},
+
+	initNav: function() {
+		var pointer;
+
+		$('.main-nav__item').on('click', 'a', function(e) {
+			e.preventDefault();
+			$('.main-nav__item a.active').removeClass('active');
+			$(this).addClass('active');
+
+			pointer = $(this).attr('href');
+			// Are we on the homepage? If not, redirect
+			if(window.location.pathname !== '/') {
+				window.location.href = window.location.origin + pointer;
+			}
+			else if(pointer.indexOf('#') > -1) {
+			    $('html, body').scrollTo($(pointer), 500);
+			}
+			else {
+				window.location.href = window.location.origin;
+			}
+		});
 	}
 };
 

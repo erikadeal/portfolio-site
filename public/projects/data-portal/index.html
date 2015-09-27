@@ -2,50 +2,76 @@
 <html>
 <head>
 	<title></title>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/app.min.css">
 </head>
 <body>
 <header>
 	<nav class="main-nav">
 		<ul class="main-nav__list">
-			<li class="main-nav__item"><a href="/projects">Projects</a></li>
+			<li class="main-nav__item"><a href="#skills">Skills</a></li>
+			<li class="main-nav__item"><a href="#projects">Projects</a></li>
 			<li class="main-nav__item"><a href="/">Home</a></li>
-			<li class="main-nav__item"><a href="/contact">Contact</a></li>
+			<li class="main-nav__item"><a href="#experience">Experience</a></li>
+			<li class="main-nav__item"><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 
 <main class="main project-page">
-	<h1>Child Well-Being Data Portal</h1>
-	<h3>2015</h3>
-	<p><a href="http://pocdata.org">http://pocdata.org</a></p>
-	<div class="content">
-		<p>Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.</p>
+	<div class="project-page__content">
+		<h1>Child Well-Being Data Portal</h1>
+		<h3>July - September 2015</h3>
+		
+		<div class="content">
+			<p>Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.</p>
+
+<p>Before, during and after development, usability testing was undertaken to help us understand where the difficulties lay with the old site and to validate the direction being taken for the new website. Overall, the new website indicates a significant reduction in errors while finding information on the site and has already proved more effective as a research tool for non-expert users.</p>
 
 <p>In addition, I developed a custom templating system that retained the original API while allowing the team to produce content in Markdown, thus solving a major content management problem for the organization.</p>
 
+		</div>
+		<div>
+			<ul class="project__tags">
+			<li class="project__tag"><i class="fa fa-tag"></i></li>
+		    
+		    	<li class="project__tag">
+		    	
+		    	ux
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	design
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	css/sass
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	js
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	d3
+		    	<li class="project__tag">
+		    	, &nbsp;&nbsp;
+		    	php
+		    	</li>
+			</ul>
+		</div>
 	</div>
-	<div class="tags">
-		<ul>
+	<div class="project-page__image">
+		<figure class="current screenshot">
+			<img src="/img/dist/dp_new.png" />
+			
+				<p class="caption">New</p>
+			
+		<figure>
 		
-			<li>ux</li>
+			<figure class="before screenshot">
+				<img src="/img/dist/dp_old.png" />
+				<p class="caption">Before</p>
+			<figure>
 		
-			<li>design</li>
-		
-			<li>css/sass</li>
-		
-			<li>js</li>
-		
-			<li>d3</li>
-		
-			<li>php</li>
-		
-		</ul>
 	</div>
 </main>
 
@@ -61,6 +87,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 <script type="text/javascript" src="/js/app.js"></script>
 <script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]

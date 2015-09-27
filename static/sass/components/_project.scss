@@ -5,20 +5,86 @@
  */
 
  .project {
+    padding: 0 5%;
+    margin: 0 5% 2rem 5%;
+    opacity: 0;
 
- 	&__title {
- 		text-align: center;
- 	}
+    &.fade-in {
+         opacity: 1;
+        -webkit-animation: pop-in .3s;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 1rem;
+        background: $white;
+        border-top: 4px solid $accent;
+    }
+
+    &__image {
+        position: relative;
+        overflow: hidden;
+        z-index: 30;
+        
+        img {
+            max-height: 210px;
+            vertical-align: top;
+            transition: .3s ease-in-out;
+        }
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 40;
+            background: rgba($base, .6);
+            opacity: 0;
+            transition: .3s ease-in-out;
+
+            .more {
+                position: absolute;
+                top: calc(50% - .5rem);
+                left: calc(50% - 40px);
+                color: $white;
+                text-transform: uppercase;
+                font-family: 'Montserrat';
+                letter-spacing: 3px;
+                font-size: 22px;
+
+            }
+        }
+
+        &:hover {
+            .overlay {
+                opacity: 1;
+            }
+
+            img {
+                filter: blur(2px);
+            }
+            
+        }
+    }
+
+    &__tags {
+        color: $text-light;
+        list-style-type: none;
+        padding: 0 0 1rem 1rem;
+        margin: 0;
+        background: $white;
+    }
+
+    &__tag {
+        display: inline-block;
+    }
  }
 
  @media screen and (min-width: 768px) {
 
-	 .project {
-	 	@include span-columns(6);
-	 	margin: 0;
-
-	 	&__title {
-
-	 	}
-	 }
+     .project-container {
+        @include span-columns(6);
+        margin: 0 0 3rem 0;
+     }
  }

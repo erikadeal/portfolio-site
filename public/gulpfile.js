@@ -2,8 +2,10 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     browserify = require('browserify'),
     buffer = require('gulp-buffer'),
+    imagemin = require('gulp-imagemin'),
     minifycss = require('gulp-minify-css'),
     rename = require('gulp-rename'),
+    pngquant = require('imagemin-pngquant'),
     sass = require('gulp-sass'),
     source     = require('vinyl-source-stream'),
     transform = require('vinyl-transform'),
@@ -36,6 +38,18 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./js'))
 });
 
+/* Reduce images sizes */
+
+gulp.task('images', function() {
+    return gulp.src('img/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('img/dist'));
+});
+
 /* Watch task for development */
 gulp.task('watch', function() {
  	gulp.watch('sass/**/*.scss',['styles']);
@@ -44,5 +58,5 @@ gulp.task('watch', function() {
 
 /* Default build task */
 gulp.task('default', function() {
- 	gulp.start('styles', 'dashboard');
+ 	gulp.start('styles', 'images');
 });

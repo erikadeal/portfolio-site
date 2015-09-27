@@ -1,18 +1,39 @@
 {{ partial "header.html" }}
 
 <main class="main project-page">
-	<h1>{{ .Title }}</h1>
-	<h3>{{ .Params.daterange }}</h3>
-	<p><a href="{{ .Params.site }}">{{ .Params.site }}</a></p>
-	<div class="content">
-		{{ .Content }}
-	</div>
-	<div class="tags">
-		<ul>
-		{{ range .Params.tags}}
-			<li>{{ . }}</li>
+	<div class="project-page__content">
+		<h1>{{ .Title }}</h1>
+		<h3>{{ .Params.daterange }}</h3>
+		{{ if .Params.site }}
+			<p><a href="{{ .Params.site }}" class="btn-ghost" target="_blank">Visit Website</a></p>
 		{{ end }}
-		</ul>
+		<div class="content">
+			{{ .Content }}
+		</div>
+		<div>
+			<ul class="project__tags">
+			<li class="project__tag"><i class="fa fa-tag"></i></li>
+		    {{ range $i, $e := .Params.tags }}
+		    	<li class="project__tag">
+		    	{{ if $i }}, &nbsp;&nbsp;{{ end }}
+		    	{{ $e }}{{ end }}
+		    	</li>
+			</ul>
+		</div>
+	</div>
+	<div class="project-page__image">
+		<figure class="current screenshot">
+			<img src="/img/dist/{{ .Params.img }}" />
+			{{ if .Params.img_before }}
+				<p class="caption">New</p>
+			{{ end }}
+		<figure>
+		{{ if .Params.img_before }}
+			<figure class="before screenshot">
+				<img src="/img/dist/{{ .Params.img_before }}" />
+				<p class="caption">Before</p>
+			<figure>
+		{{ end }}
 	</div>
 </main>
 

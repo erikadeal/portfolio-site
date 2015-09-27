@@ -1,3 +1,21 @@
-<div class="project">
-	<h3 class="project__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+<div class="project-container">
+	<div class="project">
+		<figure class="project__image">
+			<a href="{{ .Permalink }}">
+				<span class="overlay">
+					<span class="more">More</span>
+				</span>
+				<img src="img/dist/{{ .Params.img }}" />
+			</a>
+		</figure>
+		<h3 class="project__title">{{ .Title }}</h3>
+		<ul class="project__tags">
+			<li class="project__tag"><i class="fa fa-tag"></i></li>
+		    {{ range $i, $e := .Params.tags }}
+		    	<li class="project__tag">
+		    	{{ if $i }},&nbsp;&nbsp;{{ end }}
+		    	{{ $e }}{{ end }}
+		    	</li>
+		</ul>
+	</div>
 </div>

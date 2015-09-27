@@ -21,34 +21,72 @@
  		font-size: 14px;
  		display: block;
  	}
-
- 	&__description {
- 		
- 	}
  }
 
  @media screen and (min-width: 768px) {
 
-	 .experience {
-	 	@include span-columns(6);
-	 	@include triangle-right(#dedede);
-	 	position: relative;
+ 	 .experience-wrap {
+ 	 	transition: .5s ease;
+ 	 	clear: both;
+ 	 	position: relative;
+ 	 	float: left;
+ 	 	width: 100%;
 
-	 	&__title {
+ 	 	&:nth-child(even) {
 
-	 	}
+ 	 		.experience {
+		 		@include triangle-left(#dedede);
+		 		margin-left: 100%;
+		 	}
 
-	 	&__dates {
+		 	&.slide-in {
+		 		.experience {
+		 			-webkit-animation: slide-in-left .7s;
+		 			margin-left: 57%;
+		 		}
+		 	}
+ 	 	}
 
-	 	}
+ 	 	&:nth-child(odd) {
 
-	 	&__org {
+ 	 		.experience {
+		 		@include triangle-right(#dedede);
+		 		margin-left: -100%;
+		 	}
 
-	 	}
+		 	&.slide-in {
+		 		.experience {
+		 			-webkit-animation: slide-in-right .7s;
+		 			margin-left: 3%;
+		 		}
+		 	}
+ 	 	}
 
-	 	&__description {
-	 		
-	 	}
-	 }
+ 	 	&.slide-in {
+ 	 		.experience__icon {
+ 	 			-webkit-animation: pop-in .5s;
+ 	 			opacity: 1;
+ 	 		}
+ 	 	}
 
+ 	 	.experience {
+ 	 		@include span-columns(5);
+		 	position: relative;
+		}
+
+		.experience__icon {
+			position: absolute;
+			left: calc(50% - 27px);
+			top: calc(50% - 25px);
+			background: $base;
+			color: $white;
+			font-size: 2rem;
+			height: 50px;
+			line-height: 50px;
+			width: 50px;
+			text-align: center;
+			border-radius: 50%;
+			opacity: 0;
+		}
+ 	 }
  }

@@ -24,7 +24,7 @@
  		color: $white;
  		text-align: center;
  		padding: 10rem 0;
- 		background: rgba($accent, .75);
+ 		background: rgba($text, .6);
 
  		h1 {
  			font-size: 39px;
@@ -58,10 +58,29 @@
 
  }
 
- #projects {
- 	background: $bg-dark;
- }
+.skill-gauge {
+	padding-left: 10%;
+}
 
- .skill-gauge {
- 	padding-left: 10%;
- }
+#projects {
+	background: $bg-dark;
+}
+
+#experience {
+	background: $bg-light;
+}
+
+.experiences {
+	position: relative;
+	float: left;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: calc(50% - 6px);
+		width: 6px;
+		height: 100%;
+		background: $bg-dark;
+	}
+}

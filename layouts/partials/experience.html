@@ -1,8 +1,11 @@
-<div class="experience">
-	<h3 class="experience__title">{{ .Title }}</h3>
-	<span class="experience__dates">{{ .Params.daterange }}</span>
-	<span class="experience__org">{{ .Params.org }}</span>
-	<div class="experience__description">
-		{{ .Content }}
+<div class="experience-wrap">
+	<div class="experience">
+		<h3 class="experience__title">{{ .Title }}</h3>
+		<span class="experience__dates">{{ .Params.daterange }}</span>
+		<span class="experience__org">{{ .Params.org }}</span>
+		<div class="experience__description">
+			{{ .Content }}
+		</div>
 	</div>
+	<div class="experience__icon"><i class="fa fa-code"></i></div>
 </div>
