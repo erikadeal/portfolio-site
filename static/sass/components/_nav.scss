@@ -25,8 +25,9 @@
 			color: $text-light;
 			text-decoration: none;
 			display: inline-block;
-			padding: 1rem;
+			padding: 1rem 1rem 12px 1rem;
 			font-size: 14px;
+			border-bottom: 4px solid $black;
 
 			&:hover {
 				color: $base;
@@ -34,7 +35,18 @@
 
 			&.active {
 				color: $base;
-				border-bottom: 2px solid $base;
+				border-bottom-color: $base;
+			}
+		}
+
+		&.logo {
+			text-transform: uppercase;
+			background: $base;
+
+			a {
+				color: $white;
+				border: 0;
+			    padding-bottom: 16px;
 			}
 		}
 	}

@@ -207,6 +207,23 @@ var App = {
 				window.location.href = window.location.origin;
 			}
 		});
+
+		// Add a colored border to a nav item when you scroll past
+		// the corresponding section. This makes the behavior of the 
+		//active link more consistent.
+		$('.section').each(function() {
+			var el = $(this);
+			var href = '#' + el.attr('id');
+
+			var waypoint = new Waypoint({
+			  element: el,
+			  handler: function(down) {
+			  	$('.main-nav__item a.active').removeClass('active');
+			    $('.main-nav__item a[href=' + href + ']').addClass('active');
+			  },
+			  offset: 50
+			});
+		});
 	}
 };
 
