@@ -7,4 +7,4 @@ weight = 5
 
 +++
 
-Designed and developed WordPress and LMS-based websites for instructors at the University of Washington’s Information School.
+Designed and developed WordPress and LMS-based websites for instructors at the University of Washington's Information School.

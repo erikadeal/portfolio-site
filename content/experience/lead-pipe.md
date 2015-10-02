@@ -7,4 +7,4 @@ weight = 4
 
 +++
 
-Interned with an online publication to design and develop a custom WordPress theme. The site didn’t ship due to external factors, but I learned Sass, Grunt and Git along the way.
+Interned with an online publication to design and develop a custom WordPress theme. The site didn't ship due to external factors, but I learned Sass, Grunt and Git along the way.
