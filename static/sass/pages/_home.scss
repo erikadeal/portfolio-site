@@ -17,7 +17,7 @@
 
 .banner {
  	position: relative;
- 	background: url(../img/banner.jpg) no-repeat center center fixed;
+ 	background: url(../img/banner.jpg) no-repeat center center;
  	background-size: cover;
 
  	&__text {
@@ -76,6 +76,10 @@
 }
 
 @media screen and (min-width: 768px) {
+	.banner {
+		background-attachment: fixed;
+	}
+	
 	.experiences {
 		&:before {
 			content: '';

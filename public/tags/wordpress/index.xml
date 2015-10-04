@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on Erika Deal</title>
-    <link>http://localhost:1313/tags/wordpress/</link>
+    <link>http://erikadeal.com/tags/wordpress/</link>
     <description>Recent content in Wordpress on Erika Deal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://erikadeal.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Refugee Forum of King County</title>
-      <link>http://localhost:1313/projects/rfkc/</link>
+      <link>http://erikadeal.com/projects/rfkc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/rfkc/</guid>
+      <guid>http://erikadeal.com/projects/rfkc/</guid>
       <description>&lt;p&gt;Working with teammates specializing in content strategy and UX, I developed a WordPress theme and plugin to enable members of the organization to communicate about events and resources. Our process included user testing and design exploration.&lt;/p&gt;
 
 &lt;p&gt;This was an exciting project because the organization had been using an email list and in-person meetings to communicate critical information; they realized that they were missing opportunities to help people because they lacked a robust web presence. Since its launch, they have been using the website continuously.&lt;/p&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title>Strive Parenting</title>
-      <link>http://localhost:1313/projects/strive/</link>
+      <link>http://erikadeal.com/projects/strive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/strive/</guid>
+      <guid>http://erikadeal.com/projects/strive/</guid>
       <description>&lt;p&gt;The Strive parenting program is a new initiative that needed a public face to garner funder and stakeholder support. Working with a communications expert, designer, and the team that developed the curriculum, I developed a custom WordPress theme and plugin. The site was designed to showcase their work and, on the back end, enable the team to receive and act on feedback as the curriculum was under development.&lt;/p&gt;
 </description>
     </item>
