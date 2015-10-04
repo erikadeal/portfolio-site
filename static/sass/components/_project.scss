@@ -53,17 +53,6 @@
 
             }
         }
-
-        &:hover {
-            .overlay {
-                opacity: 1;
-            }
-
-            img {
-                filter: blur(2px);
-            }
-            
-        }
     }
 
     &__tags {
@@ -91,6 +80,18 @@
 
         .overlay {
             z-index: 4;
+        }
+
+        
+        &:hover {
+            .overlay {
+                opacity: 1;
+            }
+
+            img {
+                filter: blur(2px);
+            }
+            
         }
      }
  }

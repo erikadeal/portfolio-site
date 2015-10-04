@@ -236,7 +236,6 @@ var App = {
 
 	    // Append overlay for later use
 	    $('.mobile-nav-toggle').on('click', function() {
-	    	console.log('click');
 	    	if($('.mobile-nav').hasClass('open')) {
 	    		$('.mobile-nav').removeClass('open');
 	    		$('.overlay').hide();

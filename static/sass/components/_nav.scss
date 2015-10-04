@@ -85,7 +85,8 @@
 
 // Tablet and up
 @media screen and (min-width: 768px) {
-	.mobile-nav {
+	.mobile-nav,
+	.mobile-nav-toggle {
 		display: none;
 	}
 
