@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erika Deal</title>
-    <link>http://erikadeal.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Erika Deal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://erikadeal.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web Developer</title>
-      <link>http://erikadeal.com/experience/partnersforourchildren/</link>
+      <link>http://localhost:1313/experience/partnersforourchildren/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/experience/partnersforourchildren/</guid>
+      <guid>http://localhost:1313/experience/partnersforourchildren/</guid>
       <description>&lt;p&gt;Partners for Our Children is where my front end development journey really kicked off. In my time here, I have learned everything from how to work with legacy code to building maintainable applications to working with non-technical stakeholders to work out project scope. Technologies have included Drupal, WordPress, and D3.js.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Child Well-Being Data Portal</title>
-      <link>http://erikadeal.com/projects/data-portal/</link>
+      <link>http://localhost:1313/projects/data-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/projects/data-portal/</guid>
+      <guid>http://localhost:1313/projects/data-portal/</guid>
       <description>&lt;p&gt;Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.&lt;/p&gt;
 
 &lt;p&gt;Before, during and after development, usability testing was undertaken to help us understand where the difficulties lay with the old site and to validate the direction being taken for the new website. Overall, the new website indicates a significant reduction in errors while finding information on the site and has already proved more effective as a research tool for non-expert users.&lt;/p&gt;
@@ -34,20 +34,20 @@
     
     <item>
       <title>WordPress Developer</title>
-      <link>http://erikadeal.com/experience/kcrf/</link>
+      <link>http://localhost:1313/experience/kcrf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/experience/kcrf/</guid>
+      <guid>http://localhost:1313/experience/kcrf/</guid>
       <description>&lt;p&gt;Worked with a local nonprofit to develop a website that helps them communicate events and resources to members.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Partners for Our Children</title>
-      <link>http://erikadeal.com/projects/poc-site/</link>
+      <link>http://localhost:1313/projects/poc-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/projects/poc-site/</guid>
+      <guid>http://localhost:1313/projects/poc-site/</guid>
       <description>&lt;p&gt;I worked with internal stakeholders to develop a modern vision of the organization&amp;rsquo;s website and brand, then overhauled the information architecture and produced a new Drupal theme in compliance with Drupal 8 coding standards. The theme is also responsive and uses Bourbon and Grunt for easier-to-navigate stylesheets.&lt;/p&gt;
 
 &lt;p&gt;The previous website had long since outgrown its design and was presenting serious maintenance issues to the organization. I therefore presented a plan for developing a new website to Partners for Our Children leadership, gained approval for the redesign, and managed the project timeline to completion. The process included close work with communications and graphic design staff as well as card sorts, usability testing, and stakeholder interviews with other staff in the organization.&lt;/p&gt;
@@ -56,40 +56,40 @@
     
     <item>
       <title>WordPress Developer</title>
-      <link>http://erikadeal.com/experience/exultate/</link>
+      <link>http://localhost:1313/experience/exultate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/experience/exultate/</guid>
+      <guid>http://localhost:1313/experience/exultate/</guid>
       <description>&lt;p&gt;Interned with a nonprofit organization to develop a custom WordPress theme and plugin along existing brand guidelines.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Strive Parenting</title>
-      <link>http://erikadeal.com/projects/strive/</link>
+      <link>http://localhost:1313/projects/strive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/projects/strive/</guid>
+      <guid>http://localhost:1313/projects/strive/</guid>
       <description>&lt;p&gt;The Strive parenting program is a new initiative that needed a public face to garner funder and stakeholder support. Working with a communications expert, designer, and the team that developed the curriculum, I developed a custom WordPress theme and plugin. The site was designed to showcase their work and, on the back end, enable the team to receive and act on feedback as the curriculum was under development.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Junior Web Designer</title>
-      <link>http://erikadeal.com/experience/lead-pipe/</link>
+      <link>http://localhost:1313/experience/lead-pipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/experience/lead-pipe/</guid>
+      <guid>http://localhost:1313/experience/lead-pipe/</guid>
       <description>&lt;p&gt;Interned with an online publication to design and develop a custom WordPress theme. The site did not ship due to external factors, but I learned Sass, Grunt and Git along the way.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Refugee Forum of King County</title>
-      <link>http://erikadeal.com/projects/rfkc/</link>
+      <link>http://localhost:1313/projects/rfkc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/projects/rfkc/</guid>
+      <guid>http://localhost:1313/projects/rfkc/</guid>
       <description>&lt;p&gt;Working with teammates specializing in content strategy and UX, I developed a WordPress theme and plugin to enable members of the organization to communicate about events and resources. Our process included user testing and design exploration.&lt;/p&gt;
 
 &lt;p&gt;This was an exciting project because the organization had been using an email list and in-person meetings to communicate critical information; they realized that they were missing opportunities to help people because they lacked a robust web presence. Since its launch, they have been using the website continuously.&lt;/p&gt;
@@ -98,10 +98,10 @@
     
     <item>
       <title>Graduate Assistant</title>
-      <link>http://erikadeal.com/experience/ischool-ga/</link>
+      <link>http://localhost:1313/experience/ischool-ga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/experience/ischool-ga/</guid>
+      <guid>http://localhost:1313/experience/ischool-ga/</guid>
       <description>&lt;p&gt;Designed and developed WordPress and LMS-based websites for instructors at the University of Washington Information School.&lt;/p&gt;
 </description>
     </item>

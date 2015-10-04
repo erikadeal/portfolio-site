@@ -70,7 +70,7 @@ var App = {
 		var color = d3.scale.ordinal()
     		.range(["#ecebeb", "#3498db", "#ecebeb"]);
 
-    	var delay = 500 * i;
+    	var delay = 300 * i;
 
 	    var svg = d3.select(el)
 	                  .append('svg')
