@@ -1,8 +1,8 @@
 {
 	"name": "UX/UI",
 	"id": "ux",
-	"proportion": 20,
-	"start": 80,
+	"proportion": 25,
+	"start": 75,
 	"description": "Employing usability testing tools and best practices, I try to stay in touch with user needs every step of the way.",
 	"list": [
 		"Responsive design",
