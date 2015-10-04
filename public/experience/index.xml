@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on Erika Deal</title>
-    <link>http://localhost:1313/experience/</link>
+    <link>http://erikadeal.com/experience/</link>
     <description>Recent content in Experiences on Erika Deal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://erikadeal.com/experience/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Web Developer</title>
-      <link>http://localhost:1313/experience/partnersforourchildren/</link>
+      <link>http://erikadeal.com/experience/partnersforourchildren/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/partnersforourchildren/</guid>
+      <guid>http://erikadeal.com/experience/partnersforourchildren/</guid>
       <description>&lt;p&gt;Partners for Our Children is where my front end development journey really kicked off. In my time here, I have learned everything from how to work with legacy code to building maintainable applications to working with non-technical stakeholders to work out project scope. Technologies have included Drupal, WordPress, and D3.js.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>WordPress Developer</title>
-      <link>http://localhost:1313/experience/kcrf/</link>
+      <link>http://erikadeal.com/experience/kcrf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/kcrf/</guid>
+      <guid>http://erikadeal.com/experience/kcrf/</guid>
       <description>&lt;p&gt;Worked with a local nonprofit to develop a website that helps them communicate events and resources to members.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>WordPress Developer</title>
-      <link>http://localhost:1313/experience/exultate/</link>
+      <link>http://erikadeal.com/experience/exultate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/exultate/</guid>
+      <guid>http://erikadeal.com/experience/exultate/</guid>
       <description>&lt;p&gt;Interned with a nonprofit organization to develop a custom WordPress theme and plugin along existing brand guidelines.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Junior Web Designer</title>
-      <link>http://localhost:1313/experience/lead-pipe/</link>
+      <link>http://erikadeal.com/experience/lead-pipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/lead-pipe/</guid>
+      <guid>http://erikadeal.com/experience/lead-pipe/</guid>
       <description>&lt;p&gt;Interned with an online publication to design and develop a custom WordPress theme. The site did not ship due to external factors, but I learned Sass, Grunt and Git along the way.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Graduate Assistant</title>
-      <link>http://localhost:1313/experience/ischool-ga/</link>
+      <link>http://erikadeal.com/experience/ischool-ga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/experience/ischool-ga/</guid>
+      <guid>http://erikadeal.com/experience/ischool-ga/</guid>
       <description>&lt;p&gt;Designed and developed WordPress and LMS-based websites for instructors at the University of Washington Information School.&lt;/p&gt;
 </description>
     </item>
