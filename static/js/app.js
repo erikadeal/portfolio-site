@@ -238,15 +238,18 @@ var App = {
 	    $('.mobile-nav-toggle').on('click', function() {
 	    	if($('.mobile-nav').hasClass('open')) {
 	    		$('.mobile-nav').removeClass('open');
+	    		$('.mobile-nav').animate({ "left": "-60%"}, 300);
 	    		$('.overlay').hide();
 	    	} else {
 	    		$('.mobile-nav').addClass('open');
+	    		$('.mobile-nav').animate({ "left": "0px"}, 300);
 	    		$('.overlay').show();
 	    	}
 	    });
 
 	    $('.overlay').on('click', function() {
 	    		$('.mobile-nav').removeClass('open');
+	    		$('.mobile-nav').animate({ "left": "-60%"}, 300);
 	    		$(this).hide();
 	    });
 
