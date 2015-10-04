@@ -235,7 +235,7 @@ var App = {
 	    $('body').append('<div class="overlay"></div>');
 
 	    // Append overlay for later use
-	    $('.mobile-nav-toggle').on('touchstart click', function() {
+	    $('.mobile-nav-toggle').on('click', function() {
 	    	console.log('click');
 	    	if($('.mobile-nav').hasClass('open')) {
 	    		$('.mobile-nav').removeClass('open');
@@ -246,14 +246,14 @@ var App = {
 	    	}
 	    });
 
-	    $('.overlay').on('touchstart click', function() {
+	    $('.overlay').on('click', function() {
 	    		$('.mobile-nav').removeClass('open');
 	    		$(this).hide();
 	    });
 
 	    // Scroll to the selected section. This should probably be handled
 	    // better since it is an exact duplicate of what is happening above
-		$('.mobile-nav__item').on('touchstart click', 'a', function(e) {
+		$('.mobile-nav__item').on('click', 'a', function(e) {
 			e.preventDefault();
 			$('.mobile-nav__item a.active').removeClass('active');
 			$(this).addClass('active');
