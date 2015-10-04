@@ -43,6 +43,7 @@ var App = {
 		self.initTimeline();
 		self.initProjects();
 		self.initNav();
+		self.initMobileNav();
 	},
 
 	appendGauge: function(el, i, start, data, fill){
@@ -220,9 +221,54 @@ var App = {
 			  handler: function(down) {
 			  	$('.main-nav__item a.active').removeClass('active');
 			    $('.main-nav__item a[href=' + href + ']').addClass('active');
+			    $('.mobile-nav__item a.active').removeClass('active');
+			    $('.mobile-nav__item a[href=' + href + ']').addClass('active');
 			  },
 			  offset: 50
 			});
+		});
+	},
+
+	initMobileNav: function() {
+	    var pointer;
+
+	    $('body').append('<div class="overlay"></div>');
+
+	    // Append overlay for later use
+	    $('.mobile-nav-toggle').on('touchstart click', function() {
+	    	console.log('click');
+	    	if($('.mobile-nav').hasClass('open')) {
+	    		$('.mobile-nav').removeClass('open');
+	    		$('.overlay').hide();
+	    	} else {
+	    		$('.mobile-nav').addClass('open');
+	    		$('.overlay').show();
+	    	}
+	    });
+
+	    $('.overlay').on('touchstart click', function() {
+	    		$('.mobile-nav').removeClass('open');
+	    		$(this).hide();
+	    });
+
+	    // Scroll to the selected section. This should probably be handled
+	    // better since it is an exact duplicate of what is happening above
+		$('.mobile-nav__item').on('touchstart click', 'a', function(e) {
+			e.preventDefault();
+			$('.mobile-nav__item a.active').removeClass('active');
+			$(this).addClass('active');
+
+			pointer = $(this).attr('href');
+			// Are we on the homepage? If not, redirect
+			if(window.location.pathname !== '/') {
+				window.location.href = window.location.origin + pointer;
+			}
+			else if(pointer.indexOf('#') > -1) {
+			    $('html, body').scrollTo($(pointer), 500);
+			}
+			else {
+				window.location.href = window.location.origin;
+			}
 		});
 	}
 };

@@ -24,8 +24,7 @@
     &__image {
         position: relative;
         overflow: hidden;
-        z-index: 30;
-        
+
         img {
             max-height: 210px;
             vertical-align: top;
@@ -38,7 +37,6 @@
             width: 100%;
             top: 0;
             left: 0;
-            z-index: 40;
             background: rgba($base, .6);
             opacity: 0;
             transition: .3s ease-in-out;
@@ -86,5 +84,13 @@
      .project-container {
         @include span-columns(6);
         margin: 0 0 3rem 0;
+     }
+
+     .project__image {
+        z-index: 3;
+
+        .overlay {
+            z-index: 4;
+        }
      }
  }

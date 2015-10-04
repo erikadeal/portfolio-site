@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php on Erika Deal</title>
-    <link>http://erikadeal.com/tags/php/</link>
+    <link>http://localhost:1313/tags/php/</link>
     <description>Recent content in Php on Erika Deal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://erikadeal.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Child Well-Being Data Portal</title>
-      <link>http://erikadeal.com/projects/data-portal/</link>
+      <link>http://localhost:1313/projects/data-portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikadeal.com/projects/data-portal/</guid>
+      <guid>http://localhost:1313/projects/data-portal/</guid>
       <description>&lt;p&gt;Working with a team of 5, I overhauled the project architecture and UI of a legacy data visualization product. The project focused on making visualizations easier to use and access by reducing visual clutter on the website, creating a tag-based browse and search interface, and introducing dashboard visualizations that answer the most pressing questions we receive on a regular basis.&lt;/p&gt;
 
 &lt;p&gt;Before, during and after development, usability testing was undertaken to help us understand where the difficulties lay with the old site and to validate the direction being taken for the new website. Overall, the new website indicates a significant reduction in errors while finding information on the site and has already proved more effective as a research tool for non-expert users.&lt;/p&gt;
