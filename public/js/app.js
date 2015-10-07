@@ -70,7 +70,7 @@ var App = {
 		var color = d3.scale.ordinal()
     		.range(["#ecebeb", "#3498db", "#ecebeb"]);
 
-    	var delay = 300 * i;
+    	var delay = 300;
 
 	    var svg = d3.select(el)
 	                  .append('svg')
@@ -109,7 +109,7 @@ var App = {
 		  handler: function() {
 		    self.appendFill(svg, data, delay, start, color, arc);
 		  },
-		  offset: offset - 100
+		  offset: offset * .8
 		});
 	},
 
@@ -155,7 +155,7 @@ var App = {
 	},
 
 	initTimeline: function() {
-
+		var offset = $(window).height();
 		var i = 1;
 
 		$('.experience-wrap').each(function() {
@@ -167,7 +167,7 @@ var App = {
 			  handler: function(down) {
 			     el.addClass('slide-in');
 			  },
-			  offset: 300
+			  offset: offset * .9
 			});
 
 			i++;
@@ -175,6 +175,7 @@ var App = {
 	},
 
 	initProjects: function() {
+		var offset = $(window).height();
 		$('.project-container').each(function() {
 			var el = $(this);
 
@@ -183,7 +184,7 @@ var App = {
 			  handler: function(down) {
 			    el.children('div.project').addClass('fade-in');
 			  },
-			  offset: 500
+			  offset: offset * .9
 			});
 		});
 	},
